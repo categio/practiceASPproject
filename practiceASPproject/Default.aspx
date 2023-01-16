@@ -15,17 +15,33 @@
             background-color: #CCCCCC;
         }
         .auto-style3 {
+            width: 1313px;
             background-color: #FFFFFF;
         }
         .auto-style4 {
-            width: 100%;
-            height: 182px;
+            width: 88%;
+            height: 577px;
         }
         .auto-style5 {
             width: 296px;
         }
         .auto-style6 {
             width: 1000px;
+        }
+        .auto-style7 {
+            text-align: center;
+            width: 823px;
+        }
+        .auto-style8 {
+            width: 296px;
+            height: 26px;
+        }
+        .auto-style9 {
+            width: 1000px;
+            height: 26px;
+        }
+        .auto-style10 {
+            height: 26px;
         }
     </style>
 </head>
@@ -36,33 +52,35 @@
         </div>
         <table class="auto-style4">
             <tr>
-                <td class="auto-style5" spellcheck="True">
+                <td class="auto-style8" spellcheck="True">
                     <asp:Label ID="nameLabel" runat="server" Text="Enter Your Name"></asp:Label>
                 </td>
-                <td class="auto-style6" spellcheck="True">
+                <td class="auto-style9" spellcheck="True">
                     <asp:TextBox ID="nameTextBox" runat="server" Width="380px"></asp:TextBox>
                 </td>
-                <td spellcheck="True"></td>
+                <td class="auto-style10" spellcheck="True"></td>
             </tr>
             <tr>
-                <td class="auto-style5" spellcheck="True">
+                <td class="auto-style8" spellcheck="True">
                     <asp:Label ID="passwordLabel" runat="server" Text="Enter Your Password"></asp:Label>
                 </td>
-                <td class="auto-style6" spellcheck="True">
+                <td class="auto-style9" spellcheck="True">
                     <asp:TextBox ID="passwordTextBox" runat="server" Width="380px"></asp:TextBox>
                 </td>
-                <td spellcheck="True"></td>
+                <td class="auto-style10" spellcheck="True"></td>
             </tr>
             <tr>
                 <td class="auto-style5" spellcheck="True">
-                    <asp:Button ID="loginButton" runat="server" Text="Login" ToolTip="Click to login with your credentials" />
-&nbsp;<asp:Button ID="clearButton" runat="server" Text="Clear" ToolTip="Clear all entered text" />
+                    <asp:Button ID="loginButton" runat="server" OnClick="loginButton_Click" Text="Login" ToolTip="Click to login with your credentials" />
+&nbsp;<asp:Button ID="clearButton" runat="server" OnClick="clearButton_Click" Text="Clear" ToolTip="Clear all entered text" />
 &nbsp;<asp:Button ID="nextButton" runat="server" Text="Next" ToolTip="Navigate to next page" />
                 </td>
                 <td class="auto-style6" spellcheck="True">
-                    <asp:Image ID="loginImage" runat="server" Height="135px" Visible="False" Width="294px" />
+                    <asp:Image ID="loginImage" runat="server" Height="429px" ImageAlign="Middle" ImageUrl="~/LoginPlease.jpg" Width="825px" />
                     <br />
-                    <asp:Label ID="Label" runat="server" Text="Label" Visible="False"></asp:Label>
+                    <h1 class="auto-style7">
+                        <asp:Label ID="imageLabel" runat="server" Text="Label" Visible="False"></asp:Label>
+                    </h1>
                 </td>
                 <td spellcheck="True">&nbsp;</td>
             </tr>

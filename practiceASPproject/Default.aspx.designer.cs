@@ -96,12 +96,12 @@ namespace practiceASPproject
         protected global::System.Web.UI.WebControls.Image loginImage;
 
         /// <summary>
-        /// Label control.
+        /// imageLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label;
+        protected global::System.Web.UI.WebControls.Label imageLabel;
     }
 }

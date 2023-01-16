@@ -69,9 +69,14 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="No Enter.jpg" />
+    <Resource Include="NoEnter.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="LoginPlease.jpg" />
     <Content Include="Web.config" />
-    <Content Include="Welcome.jpg" />
+    <Resource Include="Welcome1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
