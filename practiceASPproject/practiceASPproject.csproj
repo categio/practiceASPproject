@@ -69,7 +69,9 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="No Enter.jpg" />
     <Content Include="Web.config" />
+    <Content Include="Welcome.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
