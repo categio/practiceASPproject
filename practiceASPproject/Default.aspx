@@ -73,7 +73,7 @@
                 <td class="auto-style5" spellcheck="True">
                     <asp:Button ID="loginButton" runat="server" OnClick="loginButton_Click" Text="Login" ToolTip="Click to login with your credentials" />
 &nbsp;<asp:Button ID="clearButton" runat="server" OnClick="clearButton_Click" Text="Clear" ToolTip="Clear all entered text" />
-&nbsp;<asp:Button ID="nextButton" runat="server" Text="Next" ToolTip="Navigate to next page" />
+&nbsp;<asp:Button ID="nextButton" runat="server" OnClick="nextButton_Click" Text="Next" ToolTip="Navigate to next page" />
                 </td>
                 <td class="auto-style6" spellcheck="True">
                     <asp:Image ID="loginImage" runat="server" Height="429px" ImageAlign="Middle" ImageUrl="~/LoginPlease.jpg" Width="825px" />

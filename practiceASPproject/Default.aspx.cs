@@ -41,6 +41,12 @@ namespace practiceASPproject
             nameTextBox.Text = null;
             passwordTextBox.Text = null;
             loginImage.ImageUrl = "LoginPlease.jpg";
+            imageLabel.Text = "Login Please!";
+        }
+
+        protected void nextButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Practice.aspx");
         }
     }
 }

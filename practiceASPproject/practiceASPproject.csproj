@@ -72,7 +72,10 @@
     <Resource Include="NoEnter.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Content Include="images\NoEnter.jpg" />
+    <Content Include="images\Welcome1.jpg" />
     <Content Include="LoginPlease.jpg" />
+    <Content Include="Practice.aspx" />
     <Content Include="Web.config" />
     <Resource Include="Welcome1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -88,6 +91,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Practice.aspx.cs">
+      <DependentUpon>Practice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Practice.aspx.designer.cs">
+      <DependentUpon>Practice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
